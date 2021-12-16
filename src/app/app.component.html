@@ -1,0 +1,15 @@
+<mat-toolbar style="background-color: black;">
+  <span style="color:whitesmoke; font-size: 25px;"> CHARTS AND TABLE </span>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <!-- <mat-icon>menu</mat-icon> -->
+  </button>
+  <!-- <span>My App</span> -->
+  <span class="example-spacer"></span>
+  <button mat-icon-button style="color: azure; width: 100px; size: 10px;" (click)="onClick()">
+    <mat-icon>timeline</mat-icon> Chart
+  </button>
+  <button mat-icon-button style="color: azure; width: 100px;"  (click)="onTable()">
+    <mat-icon>table_chart</mat-icon> Table
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
